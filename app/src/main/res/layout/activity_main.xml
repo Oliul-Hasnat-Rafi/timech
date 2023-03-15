@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#34BDAFAF"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".Activity.StartActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/_200sdp"
+        android:layout_margin="@dimen/_7sdp"
+        app:srcCompat="@drawable/img" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="TimeCh will helps to stay organized and \n perform your task much better "
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="normal" />
+
+    <Button
+        android:id="@+id/getbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:backgroundTint="#80D8FF"
+        android:focusableInTouchMode="false"
+        android:fontFamily="@font/acme"
+        android:gravity="center"
+        android:padding="@dimen/_10sdp"
+        android:text="get started"
+        android:textColor="#100F0F"
+        android:textSize="@dimen/_15sdp"
+        app:cornerRadius="@dimen/_15sdp" />
+</LinearLayout>
