@@ -16,6 +16,8 @@ Database:
 - List based on Note Category
 - List All Notes
 - Important Notes on Top
+- 
+## UI of the app:
 
   ![Screenshot_20160101-130635](https://github.com/Oliul-Hasnat-Rafi/timech/assets/118838257/ba0dc4f5-1c45-41f8-a389-c8785661627a)
 ![Screenshot_20160101-130748](https://github.com/Oliul-Hasnat-Rafi/timech/assets/118838257/628d0892-1324-4f80-b156-102907bbb3ac)
